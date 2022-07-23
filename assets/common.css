@@ -85,10 +85,50 @@ h6,
 :root {
   --font-sans-serif: "font-famil-name-sans-serif";
   --font-monospace: "font-famil-name-monospace";
+  --font-sans-serif: "sans-serif";
+}
+
+.login-panel {
+  font-size: 0.8rem;
 }
 
 :root {
   --white: #fff;
+}
+
+.container {
+  background-color: #ffffff;
+  opacity: 0.6;
+  color: #000000;
+}
+
+.form input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.form input::-moz-placeholder {
+  color: #000000;
+}
+
+.form input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.form input::-ms-input-placeholder {
+  color: #000000;
+}
+
+.form input::placeholder {
+  color: #000000;
+}
+
+.login-panel__reminder {
+  color: #000000;
+}
+
+.login-panel__button {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 * {
@@ -101,7 +141,7 @@ h6,
 
 html {
   overflow-x: hidden;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 body {
@@ -109,6 +149,97 @@ body {
   width: 100vw;
   overflow-x: hidden;
   margin: 0;
+}
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/photo.jpg");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.container {
+  border-radius: 3%;
+  width: 35vh;
+  height: 35vh;
+  text-align: center;
+}
+
+.form {
+  padding: 5px;
+  width: 10rem;
+  margin: 8px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form input {
+  display: block;
+  margin: 5px 45px;
+  border-radius: 5%;
+  border: 1px solid black;
+  width: 15rem;
+  height: 2rem;
+}
+
+.form input::-webkit-input-placeholder {
+  opacity: 0.7;
+}
+
+.form input::-moz-placeholder {
+  opacity: 0.7;
+}
+
+.form input:-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.form input::-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.form input::placeholder {
+  opacity: 0.7;
+}
+
+.login-panel {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 25rem;
+}
+
+.login-panel__reminder {
+  margin: 10px 0px 5px;
+}
+
+.login-panel__button {
+  width: 10vh;
+  height: 5vh;
+  margin-left: 80px;
+}
+
+.form {
+  font-size: 2rem;
 }
 
 @media (min-width: 992px) {

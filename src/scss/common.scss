@@ -7,7 +7,7 @@
 
 html {
   overflow-x: hidden;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 body {
@@ -16,3 +16,61 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/photo.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.container {
+  border-radius: 3%;
+  width: 35vh;
+  height: 35vh;
+  text-align: center;
+}
+
+.form {
+  padding: 5px;
+  width: 10rem;
+  margin: 8px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  display: block;
+  margin: 5px 45px;
+  border-radius: 5%;
+  border: 1px solid black;
+  width: 15rem;
+  height: 2rem;
+}
+
+.form input::placeholder {
+  opacity: 0.7;
+}
+
+.login-panel {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+}
+
+.login-panel__reminder {
+  margin: 10px 0px 5px;
+}
+
+.login-panel__button {
+	width: 10vh;
+  	height: 5vh;
+  	margin-left: 80px;
+}
+
+
