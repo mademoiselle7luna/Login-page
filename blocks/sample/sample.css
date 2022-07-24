@@ -3,41 +3,7 @@
   \******************************************************************************************************************************************************************************************/
 :root {
   --white: #fff;
-}
-
-.container {
-  background-color: #ffffff;
-  opacity: 0.6;
-  color: #000000;
-}
-
-.form input::-webkit-input-placeholder {
-  color: #000000;
-}
-
-.form input::-moz-placeholder {
-  color: #000000;
-}
-
-.form input:-ms-input-placeholder {
-  color: #000000;
-}
-
-.form input::-ms-input-placeholder {
-  color: #000000;
-}
-
-.form input::placeholder {
-  color: #000000;
-}
-
-.login-panel__reminder {
-  color: #000000;
-}
-
-.login-panel__button {
-  background-color: #000000;
-  color: #ffffff;
+  --black: #000;
 }
 
 /*# sourceMappingURL=sample.css.map*/

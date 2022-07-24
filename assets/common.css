@@ -1,6 +1,10 @@
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss ***!
   \************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap);
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss (1) ***!
+  \****************************************************************************************************************************************************************************************/
 .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,47 +92,9 @@ h6,
   --font-sans-serif: "sans-serif";
 }
 
-.login-panel {
-  font-size: 0.8rem;
-}
-
 :root {
   --white: #fff;
-}
-
-.container {
-  background-color: #ffffff;
-  opacity: 0.6;
-  color: #000000;
-}
-
-.form input::-webkit-input-placeholder {
-  color: #000000;
-}
-
-.form input::-moz-placeholder {
-  color: #000000;
-}
-
-.form input:-ms-input-placeholder {
-  color: #000000;
-}
-
-.form input::-ms-input-placeholder {
-  color: #000000;
-}
-
-.form input::placeholder {
-  color: #000000;
-}
-
-.login-panel__reminder {
-  color: #000000;
-}
-
-.login-panel__button {
-  background-color: #000000;
-  color: #ffffff;
+  --black: #000;
 }
 
 * {
@@ -166,9 +132,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 5px;
+  font-family: "SansSerif", sans-serif;
 }
 
 .container {
+  background-color: var(--white);
+  opacity: 0.6;
+  color: var(--black);
   border-radius: 3%;
   width: 35vh;
   height: 35vh;
@@ -185,6 +155,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 2rem;
 }
 
 .form input {
@@ -197,23 +168,33 @@ body {
 }
 
 .form input::-webkit-input-placeholder {
+  color: var(--black);
   opacity: 0.7;
+  font-size: 1.5rem;
 }
 
 .form input::-moz-placeholder {
+  color: var(--black);
   opacity: 0.7;
+  font-size: 1.5rem;
 }
 
 .form input:-ms-input-placeholder {
+  color: var(--black);
   opacity: 0.7;
+  font-size: 1.5rem;
 }
 
 .form input::-ms-input-placeholder {
+  color: var(--black);
   opacity: 0.7;
+  font-size: 1.5rem;
 }
 
 .form input::placeholder {
+  color: var(--black);
   opacity: 0.7;
+  font-size: 1.5rem;
 }
 
 .login-panel {
@@ -226,9 +207,11 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 25rem;
+  font-size: 0.8rem;
 }
 
 .login-panel__reminder {
+  color: var(--black);
   margin: 10px 0px 5px;
 }
 
@@ -236,10 +219,8 @@ body {
   width: 10vh;
   height: 5vh;
   margin-left: 80px;
-}
-
-.form {
-  font-size: 2rem;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 @media (min-width: 992px) {
