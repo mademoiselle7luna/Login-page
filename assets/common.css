@@ -134,8 +134,7 @@ body {
   padding: 5px;
   font-family: "SansSerif", sans-serif;
 }
-
-.container {
+.login-page__container {
   background-color: var(--white);
   opacity: 0.6;
   color: var(--black);
@@ -144,21 +143,7 @@ body {
   height: 35vh;
   text-align: center;
 }
-
-.form {
-  padding: 5px;
-  width: 10rem;
-  margin: 8px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 2rem;
-}
-
-.form input {
+.login-page__form input {
   display: block;
   margin: 5px 45px;
   border-radius: 5%;
@@ -166,38 +151,32 @@ body {
   width: 15rem;
   height: 2rem;
 }
-
-.form input::-webkit-input-placeholder {
+.login-page__form input input::-webkit-input-placeholder {
   color: var(--black);
   opacity: 0.7;
   font-size: 1.5rem;
 }
-
-.form input::-moz-placeholder {
+.login-page__form input input::-moz-placeholder {
   color: var(--black);
   opacity: 0.7;
   font-size: 1.5rem;
 }
-
-.form input:-ms-input-placeholder {
+.login-page__form input input:-ms-input-placeholder {
   color: var(--black);
   opacity: 0.7;
   font-size: 1.5rem;
 }
-
-.form input::-ms-input-placeholder {
+.login-page__form input input::-ms-input-placeholder {
   color: var(--black);
   opacity: 0.7;
   font-size: 1.5rem;
 }
-
-.form input::placeholder {
+.login-page__form input input::placeholder {
   color: var(--black);
   opacity: 0.7;
   font-size: 1.5rem;
 }
-
-.login-panel {
+.login-page__login-panel {
   margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,13 +188,11 @@ body {
   width: 25rem;
   font-size: 0.8rem;
 }
-
-.login-panel__reminder {
+.login-page__login-panel__reminder {
   color: var(--black);
   margin: 10px 0px 5px;
 }
-
-.login-panel__button {
+.login-page__login-panel__button {
   width: 10vh;
   height: 5vh;
   margin-left: 80px;

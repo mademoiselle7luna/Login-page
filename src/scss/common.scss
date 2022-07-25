@@ -27,59 +27,49 @@ body {
   align-items: center;
   padding: 5px;
   font-family: "SansSerif", sans-serif;
+
+	&__container {
+	  background-color: var(--white);
+	  opacity: 0.6;
+	  color: var(--black);
+	  border-radius: 3%;
+	  width: 35vh;
+	  height: 35vh;
+	  text-align: center;
+	}
+
+	&__form input {
+	  display: block;
+	  margin: 5px 45px;
+	  border-radius: 5%;
+	  border: 1px solid black;
+	  width: 15rem;
+	  height: 2rem;
+
+	  & input::placeholder {
+		color: var(--black);
+		opacity: 0.7;
+		font-size: 1.5rem;
+	  }
+	}
+	&__login-panel {
+	  margin: 10px;
+	  display: flex;
+	  flex-direction: row;
+	  width: 25rem;
+	  font-size: 0.8rem;
+
+	  &__reminder {
+		color: var(--black);
+		margin: 10px 0px 5px;
+	  }
+	  &__button {
+		width: 10vh;
+		height: 5vh;
+		margin-left: 80px;
+		background-color: var(--black);
+		color: var(--white);
+	  }
+	}
 }
 
-.container {
-  background-color: var(--white);
-  opacity: 0.6;
-  color: var(--black);
-  border-radius: 3%;
-  width: 35vh;
-  height: 35vh;
-  text-align: center;
-}
-
-.form {
-  padding: 5px;
-  width: 10rem;
-  margin: 8px 0;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.form input {
-  display: block;
-  margin: 5px 45px;
-  border-radius: 5%;
-  border: 1px solid black;
-  width: 15rem;
-  height: 2rem;
-}
-
-.form input::placeholder {
-  color: var(--black);
-  opacity: 0.7;
-  font-size: 1.5rem;
-}
-
-.login-panel {
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  width: 25rem;
-  font-size: 0.8rem;
-}
-
-.login-panel__reminder {
-  color: var(--black);
-  margin: 10px 0px 5px;
-}
-
-.login-panel__button {
-	width: 10vh;
-  	height: 5vh;
-  	margin-left: 80px;
-  	background-color: var(--black);
-  	color: var(--white);
-}
